@@ -1,4 +1,14 @@
-### Hi there 👋
+### Hi there, 👋 it's Glory here 😃
+#### From the Electrical Universe! 🎇 I'm Quantum Awakened! 😄 
+
+- 👨‍💻 I'm available for Open Source Projects. Let's do it!!
+
+### Let's meet by the other side to bring life to some visions
+
+<img align="left" alt="Glory's Github Stats" src="https://github-readme-stats.vercel.app/api?username=goldenglorys&show_icons=true&hide_border=true" />
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=goldenglorys&layout=compact)](https://github.com/goldenglorys/github-readme-stats)
 
 <!--
 **goldenglorys/goldenglorys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
