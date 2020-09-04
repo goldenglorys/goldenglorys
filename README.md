@@ -3,6 +3,7 @@
 
 - ⚡ A member of [http://www.github.com/hackclub] and making amazing stuff
 - ⚡ Data is my propellant, remodeled my core cumbustion engine for it purpose from [http://www.devcareer.io] training period
+- ⚡ ML & Quantum Computing Enthusiastic
 - 👨‍💻 I'm available for Open Source Projects. Let's do it!!
 
 ### Let's meet by the other side to bring life to some visions
