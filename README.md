@@ -1,7 +1,7 @@
 ### Hi there, 👋 it's Glory here 😃
 #### From the Electrical Universe! 🎇 I'm Quantum Awakened! 😄 
 
-- ⚡ A member of [http://www.github.com/hackclub] and making amazing stuff
+- ⚡ Making amazing stuff at [http://www.github.com/hackclub] 
 - ⚡ Data is my propellant, remodeled my core cumbustion engine for it purpose from [http://www.devcareer.io] training period
 - ⚡ ML & Quantum Computing Enthusiastic
 - 👨‍💻 I'm available for Open Source Projects. Let's do it!!
