@@ -8,10 +8,10 @@
 
 ### Let's meet by the other side to bring life to some visions
 
-<img align="left" alt="Glory's Github Stats" src="https://github-readme-stats.vercel.app/api?username=goldenglorys&count_private=true&show_icons=true&theme=radical&hide_border=true" />
+<img align="left" alt="Glory's Github Stats" src="https://github-readme-stats.vercel.app/api?username=goldenglorys&count_private=true&show_icons=true&theme=merko&hide_border=true" />
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=goldenglorys&layout=compact&count_private=true&show_icons=true&theme=radical&hide_border=true)](https://github.com/goldenglorys/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=goldenglorys&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true)](https://github.com/goldenglorys/github-readme-stats)
 
 <!--
 **goldenglorys/goldenglorys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
