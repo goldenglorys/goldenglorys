@@ -15,7 +15,9 @@
 
 <!--
 **goldenglorys/goldenglorys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### Profile Visits
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=MichaelOlatunji.MichaelOlatunji)
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
