@@ -1,6 +1,7 @@
 ### Hi there, 👋 it's Glory here 😃
 #### From the Electrical Universe! 🎇 I'm Quantum Awakened! 😄 
 
+- ⚡Proudly an [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science) Student
 - ⚡ Making amazing stuff at [Hack Club](http://www.github.com/hackclub) 
 - ⚡ Data is my propellant, remodeled my core cumbustion engine for it purpose from [DevCareer](http://www.devcareer.io) training period
 - ⚡ ML & Quantum Computing Enthusiastic
