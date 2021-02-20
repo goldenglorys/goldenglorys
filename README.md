@@ -5,7 +5,7 @@
 - ⚡ Making amazing stuff at [Hack Club](http://www.github.com/hackclub) 
 - ⚡ Data is my propellant, remodeled my core cumbustion engine for it purpose from [DevCareer](http://www.devcareer.io) training period
 - ⚡ ML & Quantum Computing Enthusiastic
-- 👨‍💻 I'm available for Open Source Projects. Let's do it!
+- 👨‍💻 I'm available for Open Source Projects. Let's do it !
 
 ### Let's meet by the other side to bring life to some visions
 
