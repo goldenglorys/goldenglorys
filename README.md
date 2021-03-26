@@ -14,6 +14,8 @@
 
 [![Top Langs](https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true)](https://github.com/goldenglorys/github-readme-stats)
 
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=goldenglorys&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true" alt="goldenglorys" /></p> 
+
 <!--
 **goldenglorys/goldenglorys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 #### Profile Visits
