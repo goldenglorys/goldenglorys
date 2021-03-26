@@ -2,7 +2,7 @@
 #### From the Electrical Universe! 🎇 I'm Quantum Awakened! 😄 
 
 - ⚡ [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science) Student
-- ⚡ Making amazing stuff at [Hack Club](http://www.github.com/hackclub) 
+- ⚡ Making amazing stuff at <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a>
 - ⚡ Data is my propellant, remodeled my core cumbustion engine for it purpose from [DevCareer](http://www.devcareer.io) training period
 - ⚡ ML & Quantum Computing Enthusiastic
 - 👨‍💻 I'm available for Open Source Projects. Let's do it !
