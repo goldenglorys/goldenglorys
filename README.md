@@ -9,7 +9,7 @@
 
 ### Let's meet by the other side to bring life to some visions
 
-<img align="left" alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&show_icons=true&theme=merko&hide_border=true" />
+<img alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&show_icons=true&theme=merko&hide_border=true" />
 
 [![Top Langs](https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true)](https://github.com/goldenglorys/github-readme-stats)
 
