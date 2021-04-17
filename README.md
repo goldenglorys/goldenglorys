@@ -1,4 +1,4 @@
-### Hi tallhere, 👋 it's Glory here 😃
+### Hi there, 👋 it's Glory here 😃
 #### From the Electrical Universe! 🎇 I'm Quantum Awakened! 😄 
 
 - ⚡ [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science) Student
