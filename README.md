@@ -4,7 +4,7 @@
 - ⚡ Making stuff I wish I could get and make from high school at <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a>
 - ⚡ Data is my propellant, remodeled my core combustion engine for it purpose from [DevCareer](http://www.devcareer.io) coding period
 - ⚡ ML & Quantum Mechanics Enthusiastic
-- 👨‍💻 I'm available for Open Source Projects. Let's do it !
+- 👨‍💻 Available for Open Source Projects. Let's do it!
 
 ### Let's meet by the other side to bring life to some visions
 
