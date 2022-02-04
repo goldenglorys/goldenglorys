@@ -1,4 +1,4 @@
-### Hi there, 👋 it's Glory here! 😃
+### Hi all, 👋 it's Glory here! 😃
 #### From the Electrical Universe! 🎇 I'm Quantum Awakened! 😄 
 <!-- - ⚡ [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science) Student -->
 - ⚡ Making stuff I wish I could get and make from school at <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a>
