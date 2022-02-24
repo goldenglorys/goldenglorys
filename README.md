@@ -12,7 +12,7 @@
 
 [![Top Langs](https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15"&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true)](https://github.com/goldenglorys/github-readme-stats)
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=goldenglorys&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true" alt="goldenglorys" /></p> 
+<!-- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=goldenglorys&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true" alt="goldenglorys" /></p>  -->
 
 
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=goldenglorys.goldenglorys) -->
