@@ -8,9 +8,15 @@
 
 ### Let's meet by the other side to bring life to some visions
 
-<img alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=merko&hide_border=true" />
+<!-- <img alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=merko&hide_border=true" />
 
-[![Top Langs](https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15"&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true)](https://github.com/goldenglorys/github-readme-stats)
+[![Top Langs](https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15"&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true)](https://github.com/goldenglorys/github-readme-stats) -->
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=goldenglorys&theme=solarized_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=goldenglorys&theme=solarized_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=goldenglorys&theme=solarized_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=goldenglorys&theme=solarized_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=goldenglorys&theme=solarized_dark)
 
 <!-- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=goldenglorys&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true" alt="goldenglorys" /></p>  -->
 
