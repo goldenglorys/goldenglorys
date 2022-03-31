@@ -5,9 +5,7 @@
 - ⚡ Data is my propellant, remodeled my core combustion engine for it purpose from [DevCareer](http://www.devcareer.io) coding period
 - ⚡ ML & Quantum Mechanics Enthusiastic
 - 👨‍💻 Available for Open Source Projects. Let's do it!
-
 ### Let's meet by the other side to bring life to some visions
-
 <!-- <a href="https://github.com/goldenglorys">
   <img align="center" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide_border=true" />
 </a>
