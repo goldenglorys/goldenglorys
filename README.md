@@ -8,13 +8,13 @@
 
 ### Let's meet by the other side to bring life to some visions
 
-<a href="https://github.com/goldenglorys">
+<!-- <a href="https://github.com/goldenglorys">
   <img align="center" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide_border=true" />
 </a>
 <a href="https://github.com/goldenglorys">
   <img align="center" src="https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15&layout=compact&count_private=true&show_icons=true&theme=default&hide_border=true" />
 </a>
-
+ -->
 <!-- <img alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide_border=true" />
 
 [![Top Langs](https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15&layout=compact&count_private=true&show_icons=true&theme=default&hide_border=true)](https://github.com/goldenglorys/github-readme-stats) -->
