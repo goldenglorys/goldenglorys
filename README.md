@@ -31,3 +31,17 @@
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=goldenglorys.goldenglorys) -->
 
 <!-- ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=goldenglorys&theme=github&hide_border=true&bg_color=0d1117&area_color=1f6fea&line=38d252&point=1f6fea&color=fefefe) -->
+
+<!-- ## &#x1f4c8; GitHub Stats
+
+<br>
+
+<a href="https://github.com/goldenglorys">
+  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=goldenglorys&hide=html,css&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
+</a>
+
+<a href="https://github.com/goldenglorys">
+  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api?username=goldenglorys&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=4AB097&bg_color=1A2B34" alt="Martin's GitHub Stats" />
+</a>
+
+<br> -->
