@@ -1,11 +1,15 @@
-### Coucou!
-#### From the Electrical Universe! 🎇 I'm Quantum Awakened! 😄 
+### 👋 Hi there, thanks for stopping by
+#### From the electrical universe, owing my awesomeness I'm Quantum Awakened! 🐘 
 <!-- - ⚡ [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science) Student -->
-- ⚡ Making stuff I wish I could get and make from school at <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a>
-- ⚡ Data is my propellant, remodeled my core combustion engine for it purpose from [DevCareer](http://www.devcareer.io) coding period
+- 🤖 Making stuff I wish I could get and make from h-school @ <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a>
+- 🏋🏼‍♂️ Data is my propellant, remodeled my core combustion engine for it purpose from [DevCareer](http://www.devcareer.io) coding period
 - ⚡ ML & Quantum Mechanics Enthusiastic
-- 👨‍💻 Available for Open Source Projects. Let's do it!
-### Let's meet by the other side to bring life to some visions
+
+<!-- > Computing is pop culture. [...] Pop culture holds a disdain for history. Pop culture is all about identity and feeling like you're participating, It has nothing to do with cooperation, the past or the future—it's living in the present. I think the same is true of most people who write code for money. They have no idea where [their culture came from]. - _Alan Kay_ -->
+---
+> In natural science, Nature has given us a world and we’re just to discover its laws. In computers, we can stuff laws into it and create a world. - _Alan Kay_
+
+### I'm here alot and leaving minor footprint..
 <!-- <a href="https://github.com/goldenglorys">
   <img align="center" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide_border=true" />
 </a> -->
@@ -13,9 +17,9 @@
   <img align="center" src="https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15&layout=compact&count_private=true&show_icons=true&theme=default&hide_border=true" />
 </a> -->
 
-<img alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=merko&hide_border=true" />
+<!-- <img alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=merko&hide_border=true" />
 
-<img align="center" alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true" />
+<img align="center" alt="Glory's Github Stats" src="https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true" /> -->
 
 <!-- [![Top Langs](https://github-readme-stats-seven-lac.vercel.app/api/top-langs/?username=goldenglorys&langs_count=15&layout=compact&count_private=true&show_icons=true&theme=merko&hide_border=true)](https://github.com/goldenglorys/github-readme-stats) -->
 
