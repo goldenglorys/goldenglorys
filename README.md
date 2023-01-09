@@ -9,7 +9,7 @@
 ---
 > In natural science, Nature has given us a world and we’re just to discover its laws. In computers, we can stuff laws into it and create a world. - _Alan Kay_
 
-### I'm here alot and leaving minor footprint..
+<!-- ### I'm here alot and leaving minor footprint.. -->
 <!-- <a href="https://github.com/goldenglorys">
   <img align="center" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide_border=true" />
 </a> -->
