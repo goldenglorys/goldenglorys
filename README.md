@@ -5,7 +5,7 @@
 <!-- - ⚡ [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science) Student -->
 - 🤖 Making stuff I wish I could get and make from high school @ <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a>
 - 🏋🏼‍♂️ Data is my propellant, remodeled my core combustion engine for it purpose
-- ⚡ Combining my enthusiasm for ML & QM, I delve into the fascinating world where these two intersect.
+- ⚡ Combining my enthusiasm for ML & QM, delving into the fascinating world where these two intersect.
 
 <!-- > Computing is pop culture. [...] Pop culture holds a disdain for history. Pop culture is all about identity and feeling like you're participating, It has nothing to do with cooperation, the past or the future—it's living in the present. I think the same is true of most people who write code for money. They have no idea where [their culture came from]. - _Alan Kay_ -->
 ---
