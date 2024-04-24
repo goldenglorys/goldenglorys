@@ -11,7 +11,7 @@
 ---
 > In natural science, Nature has given us a world and we’re just to discover its laws. In computers, we can stuff laws into it and create a world. - _Alan Kay_
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
   <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
   <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/overview.svg#gh-dark-mode-only#gh-light-mode-only" />
