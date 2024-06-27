@@ -57,3 +57,8 @@
 </a>
 
 <br> -->
+
+<!-- <div>
+<a href="https://github.com/goldenglorys">
+<img loading="lazy" height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=goldenglorys&layout=compact&langs_count=7&theme=algolia"/>
+</div> -->
