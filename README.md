@@ -17,6 +17,13 @@
   <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/overview.svg#gh-dark-mode-only#gh-light-mode-only" />
   <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/languages.svg#gh-dark-mode-only#gh-light-mode-only" />
 </div>
+
+<!-- <div align="center">
+  <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
+  <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
+  <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/overview.svg#gh-dark-mode-only#gh-light-mode-only" />
+  <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/languages.svg#gh-dark-mode-only#gh-light-mode-only" />
+</div>
 <!-- ### I'm here alot and leaving minor footprint.. -->
 <!-- <a href="https://github.com/goldenglorys">
   <img align="center" src="https://github-readme-stats-seven-lac.vercel.app/api?username=goldenglorys&count_private=true&include_all_commits=true&show_icons=true&theme=default&hide_border=true" />
