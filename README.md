@@ -63,6 +63,11 @@
 
 <br> -->
 
+<!-- [![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=534L)](https://github.com/anuraghazra/github-readme-stats)
+![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=534L\&layout=compact&theme=radical) -->
+
+
+
 <!-- <div>
 <a href="https://github.com/goldenglorys">
 <img loading="lazy" height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=goldenglorys&layout=compact&langs_count=7&theme=algolia"/>
