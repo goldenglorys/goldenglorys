@@ -1,7 +1,7 @@
 <!-- ### 👋 Hi there, thanks for stopping by -->
 ---
 > Computer science is not about machines, in the same way that astronomy is not about telescopes. There is an essential unity of mathematics and computer science. - _Edsger Dijkstra_
-#### From the electrical universe, owing my awesomeness I'm Quantum Awakened! 🐘 g
+#### From the electrical universe, owing my awesomeness I'm Quantum Awakened! 🐘
 <!-- - ⚡ [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science) Student -->
 <!-- 🤖 Making stuff I wish I could get and make from high school @ <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a> -->
 - 🏋🏼‍♂️ Data is my propellant, remodeled my core combustion engine for it purpose
