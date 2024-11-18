@@ -10,7 +10,7 @@
 <!-- > Computing is pop culture. [...] Pop culture holds a disdain for history. Pop culture is all about identity and feeling like you're participating, It has nothing to do with cooperation, the past or the future—it's living in the present. I think the same is true of most people who write code for money. They have no idea where [their culture came from]. - _Alan Kay_ -->
 ---
 > In natural science, Nature has given us a world and we’re just to discover its laws. In computers, we can stuff laws into it and create a world. - _Alan Kay_
-
+<!--
  <div align="center">
   <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
   <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
