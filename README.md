@@ -1,15 +1,17 @@
-<!-- ### 👋 Hi there, thanks for stopping by -->
+> man has a large capacity for effort..it took theropod dinosaurs about 80,000,000 years to evolve into early birds, and it took us 300,000 years to make airplanes. at first it seems we're not that much faster than raw evolution (only 100kx ??)..but then remember we were landing on the moon and sending probs to mars only 66-72 years later. 🔮
+<!-- ### 👋 Hi there, thanks for stopping by 
 ---
 > Computer science is not about machines, in the same way that astronomy is not about telescopes. There is an essential unity of mathematics and computer science. - _Edsger Dijkstra_
 #### From the electrical universe, owing my awesomeness I'm Quantum Awakened! 🐘
 <!-- - ⚡ [![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science) Student -->
-<!-- 🤖 Making stuff I wish I could get and make from high school @ <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a> -->
+<!-- 🤖 Making stuff I wish I could get and make from high school @ <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-left.png" width="70"></a> 
 - 🏋🏼‍♂️ Data is my propellant, remodeled my core combustion engine for it purpose
 - ⚡ Combining my enthusiasm for ML & QM, delving into the fascinating world where these two intersect.
 
-<!-- > Computing is pop culture. [...] Pop culture holds a disdain for history. Pop culture is all about identity and feeling like you're participating, It has nothing to do with cooperation, the past or the future—it's living in the present. I think the same is true of most people who write code for money. They have no idea where [their culture came from]. - _Alan Kay_ -->
+<!-- > Computing is pop culture. [...] Pop culture holds a disdain for history. Pop culture is all about identity and feeling like you're participating, It has nothing to do with cooperation, the past or the future—it's living in the present. I think the same is true of most people who write code for money. They have no idea where [their culture came from]. - _Alan Kay_
 ---
 > In natural science, Nature has given us a world and we’re just to discover its laws. In computers, we can stuff laws into it and create a world. - _Alan Kay_
+-->
 <!--
  <div align="center">
   <img src="https://github.com/goldenglorys/gh-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
