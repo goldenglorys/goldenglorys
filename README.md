@@ -8,13 +8,30 @@
 ```
 2026-06-10 · telemetry
 
-code      no data yet
-this week +0 / -0
+code      1.4M loc  (100% public / 0% private)
+this week +572 / -49
 
-files/commit   0.0 avg, 0 p95
-most touched   n/a
+peak hour      00:00 UTC
+after sunset   48%
+weekend work   22%
+streak         6d (longest 415d)
+avg gap        35.4h (longest 19819h)
 
-repos          0 active / 0 total
+files/commit   2.1 avg, 5 p95
+most touched   generated/overview.svg
+top verbs      update, set, lecture
+
+repos          2 active / 119 total
+
+languages (90d, by commits)
+  TypeScript   ████████████████████ 94
+  Python       ██████░░░░░░░░░░░░░░ 30
+  Markdown     ███░░░░░░░░░░░░░░░░░ 15
+  JSON         ██░░░░░░░░░░░░░░░░░░ 11
+  CSS          █░░░░░░░░░░░░░░░░░░░ 5
+  JavaScript   █░░░░░░░░░░░░░░░░░░░ 5
+  HTML         ░░░░░░░░░░░░░░░░░░░░ 1
+  YAML         ░░░░░░░░░░░░░░░░░░░░ 1
 ```
 <!-- TELEMETRY END -->
 
