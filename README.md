@@ -8,30 +8,29 @@
 ```
 2026-06-10 · telemetry
 
-code      1.4M loc  (100% public / 0% private)
-this week +572 / -49
+  output        1,400,981 loc           public 100% · private 0%
+  past 7d       +715 / -108             net +607
+  lifetime      +8.3M / -2.2M
 
-peak hour      00:00 UTC
-after sunset   48%
-weekend work   22%
-streak         6d (longest 415d)
-avg gap        35.4h (longest 19819h)
+  recent focus (90d, by commits touching that language)
+  tsx     ████████████████████     59
+  ts      ████████████········     35
+  py      ███████████·········     31
+  md      █████···············     16
+  json    ████················     11
+  css     ██··················      5
+  js      ██··················      5
+  html    ····················      1
 
-files/commit   2.1 avg, 5 p95
-most touched   generated/overview.svg
-top verbs      update, set, lecture
+  peak hour     00:00 UTC               42% past sunset (20:00–06:00)
+  cadence       1d 11h avg gap          longest: 825d 19h
+  weekend share 22%                     sat 45% / sun 55%
+  files/commit  2.1 avg                 p95 5, max 43
+  commit streak 6 days                  longest ever: 415
 
-repos          2 active / 119 total
-
-languages (90d, by commits)
-  TypeScript   ████████████████████ 94
-  Python       ██████░░░░░░░░░░░░░░ 30
-  Markdown     ███░░░░░░░░░░░░░░░░░ 15
-  JSON         ██░░░░░░░░░░░░░░░░░░ 11
-  CSS          █░░░░░░░░░░░░░░░░░░░ 5
-  JavaScript   █░░░░░░░░░░░░░░░░░░░ 5
-  HTML         ░░░░░░░░░░░░░░░░░░░░ 1
-  YAML         ░░░░░░░░░░░░░░░░░░░░ 1
+  active repos  2 of 119
+  most-touched  gh-stats/generated/overview.svg (126×)
+  favorite verb "update"                runner up: "set"
 ```
 <!-- TELEMETRY END -->
 
