@@ -15,18 +15,21 @@ README_PATH = REPO_ROOT / "README.md"
 START_MARKER = "<!-- TELEMETRY START -->"
 END_MARKER = "<!-- TELEMETRY END -->"
 
-LANGUAGE_BY_EXT = {
-    ".py": "Python", ".js": "JavaScript", ".ts": "TypeScript", ".tsx": "TypeScript",
-    ".jsx": "JavaScript", ".go": "Go", ".rs": "Rust", ".rb": "Ruby", ".java": "Java",
-    ".c": "C", ".h": "C", ".cpp": "C++", ".hpp": "C++", ".cs": "C#", ".php": "PHP",
-    ".swift": "Swift", ".kt": "Kotlin", ".sh": "Shell", ".sql": "SQL",
-    ".html": "HTML", ".css": "CSS", ".scss": "SCSS", ".svelte": "Svelte",
-    ".vue": "Vue", ".md": "Markdown", ".json": "JSON", ".yml": "YAML", ".yaml": "YAML",
-    ".jl": "Julia", ".r": "R", ".dart": "Dart", ".scala": "Scala", ".lua": "Lua",
-    ".ex": "Elixir", ".exs": "Elixir",
+EXT_LABELS = {
+    ".py": "py", ".js": "js", ".ts": "ts", ".tsx": "tsx", ".jsx": "jsx",
+    ".go": "go", ".rs": "rs", ".rb": "rb", ".java": "java",
+    ".c": "c", ".h": "c", ".cpp": "cpp", ".hpp": "cpp", ".cs": "cs", ".php": "php",
+    ".swift": "swift", ".kt": "kt", ".sh": "shell", ".sql": "sql",
+    ".html": "html", ".css": "css", ".scss": "scss", ".svelte": "svelte",
+    ".vue": "vue", ".md": "md", ".json": "json", ".yml": "yaml", ".yaml": "yaml",
+    ".jl": "jl", ".r": "r", ".dart": "dart", ".scala": "scala", ".lua": "lua",
+    ".ex": "ex", ".exs": "ex",
 }
 
 NOISE_VERBS = {"merge", "revert"}
+
+AFTER_SUNSET_START_HOUR = 20
+AFTER_SUNSET_END_HOUR = 6
 
 
 def load_json(path, default=None):
@@ -38,13 +41,26 @@ def load_json(path, default=None):
     return default
 
 
-def fmt_number(n):
+def fmt_comma(n):
+    return f"{int(n):,}"
+
+
+def fmt_compact(n):
     n = int(n)
     if abs(n) >= 1_000_000:
         return f"{n / 1_000_000:.1f}M"
     if abs(n) >= 1_000:
         return f"{n / 1_000:.1f}K"
     return str(n)
+
+
+def fmt_duration(hours):
+    total_minutes = round(hours * 60)
+    days, rem = divmod(total_minutes, 24 * 60)
+    hrs, _ = divmod(rem, 60)
+    if days > 0:
+        return f"{days}d {hrs}h"
+    return f"{hrs}h"
 
 
 def cloc_total(cloc_data):
@@ -124,7 +140,7 @@ def collect_commit_data():
                 continue
             _, _, filepath = parts
             current_files += 1
-            file_touch_counter[filepath] += 1
+            file_touch_counter[f"{repo_path.name}/{filepath}"] += 1
         if current_files:
             files_per_commit.append(current_files)
 
@@ -137,9 +153,9 @@ def collect_commit_data():
             if not filepath:
                 continue
             ext = Path(filepath).suffix.lower()
-            lang = LANGUAGE_BY_EXT.get(ext)
-            if lang:
-                recent_lang_counter[lang] += 1
+            label = EXT_LABELS.get(ext)
+            if label:
+                recent_lang_counter[label] += 1
 
     return {
         "timestamps": timestamps,
@@ -159,18 +175,29 @@ def compute_temporal_stats(timestamps):
     hour_counter = Counter(ts.hour for ts in timestamps)
     peak_hour, _ = hour_counter.most_common(1)[0]
 
-    weekend_count = sum(1 for ts in timestamps if ts.weekday() >= 5)
-    weekend_pct = round(100 * weekend_count / len(timestamps))
+    weekend_timestamps = [ts for ts in timestamps if ts.weekday() >= 5]
+    weekend_pct = round(100 * len(weekend_timestamps) / len(timestamps))
 
-    after_sunset = sum(1 for ts in timestamps if ts.hour >= 18 or ts.hour < 6)
+    saturdays = sum(1 for ts in weekend_timestamps if ts.weekday() == 5)
+    sundays = len(weekend_timestamps) - saturdays
+    if weekend_timestamps:
+        sat_pct = round(100 * saturdays / len(weekend_timestamps))
+        sun_pct = 100 - sat_pct
+    else:
+        sat_pct = sun_pct = 0
+
+    after_sunset = sum(
+        1 for ts in timestamps
+        if ts.hour >= AFTER_SUNSET_START_HOUR or ts.hour < AFTER_SUNSET_END_HOUR
+    )
     after_sunset_pct = round(100 * after_sunset / len(timestamps))
 
     gaps = [
-        (timestamps[i] - timestamps[i - 1]).total_seconds()
+        (timestamps[i] - timestamps[i - 1]).total_seconds() / 3600
         for i in range(1, len(timestamps))
     ]
-    avg_gap_hours = (sum(gaps) / len(gaps) / 3600) if gaps else 0
-    longest_gap_hours = (max(gaps) / 3600) if gaps else 0
+    avg_gap_hours = (sum(gaps) / len(gaps)) if gaps else 0
+    longest_gap_hours = max(gaps) if gaps else 0
 
     days = sorted({ts.date() for ts in timestamps})
     longest_streak = 1
@@ -194,6 +221,8 @@ def compute_temporal_stats(timestamps):
     return {
         "peak_hour": peak_hour,
         "weekend_pct": weekend_pct,
+        "sat_pct": sat_pct,
+        "sun_pct": sun_pct,
         "after_sunset_pct": after_sunset_pct,
         "avg_gap_hours": avg_gap_hours,
         "longest_gap_hours": longest_gap_hours,
@@ -212,7 +241,7 @@ def compute_commit_verbs(subjects):
         if verb in NOISE_VERBS or len(verb) < 3:
             continue
         counter[verb] += 1
-    return [verb for verb, _ in counter.most_common(3)]
+    return counter.most_common(2)
 
 
 def percentile(values, pct):
@@ -230,7 +259,7 @@ def percentile(values, pct):
 def bar(value, max_value, width=20):
     filled = round(width * value / max_value) if max_value > 0 else 0
     filled = max(0, min(width, filled))
-    return "█" * filled + "░" * (width - filled)
+    return "█" * filled + "·" * (width - filled)
 
 
 def count_total_repos():
@@ -242,6 +271,10 @@ def count_total_repos():
     return total
 
 
+def row(label, left="", right=""):
+    return f"  {label:<14}{left:<24}{right}".rstrip()
+
+
 def build_block():
     cloc_public = cloc_total(load_json(REPO_ROOT / "cloc-public.json"))
     cloc_private = cloc_total(load_json(REPO_ROOT / "cloc-private.json"))
@@ -251,21 +284,29 @@ def build_block():
     private_pct = (100 - public_pct) if total_loc else 0
 
     churn_week = {"additions": 0, "deletions": 0}
+    churn_all = {"additions": 0, "deletions": 0}
     for visibility in ("public", "private"):
-        data = load_json(REPO_ROOT / f"churn-{visibility}-week.json", {}) or {}
-        churn_week["additions"] += data.get("additions", 0)
-        churn_week["deletions"] += data.get("deletions", 0)
+        week_data = load_json(REPO_ROOT / f"churn-{visibility}-week.json", {}) or {}
+        churn_week["additions"] += week_data.get("additions", 0)
+        churn_week["deletions"] += week_data.get("deletions", 0)
+
+        all_data = load_json(REPO_ROOT / f"churn-{visibility}-all.json", {}) or {}
+        churn_all["additions"] += all_data.get("additions", 0)
+        churn_all["deletions"] += all_data.get("deletions", 0)
 
     commit_data = collect_commit_data()
     temporal = compute_temporal_stats(commit_data["timestamps"])
-    verbs = compute_commit_verbs(commit_data["subjects"])
+    top_verbs = compute_commit_verbs(commit_data["subjects"])
 
     files_per_commit = commit_data["files_per_commit"]
     avg_files = (sum(files_per_commit) / len(files_per_commit)) if files_per_commit else 0
     p95_files = percentile(files_per_commit, 95)
+    max_files = max(files_per_commit) if files_per_commit else 0
 
     most_touched = commit_data["file_touch_counter"].most_common(1)
-    most_touched_file = most_touched[0][0] if most_touched else "n/a"
+    most_touched_str = (
+        f"{most_touched[0][0]} ({most_touched[0][1]}×)" if most_touched else "n/a"
+    )
 
     top_languages = commit_data["recent_lang_counter"].most_common(8)
     max_lang_count = top_languages[0][1] if top_languages else 0
@@ -274,42 +315,68 @@ def build_block():
     total_repos = count_total_repos()
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    net = churn_week["additions"] - churn_week["deletions"]
 
     lines = []
     lines.append(f"{today} · telemetry")
     lines.append("")
+
     if total_loc:
-        lines.append(f"code      {fmt_number(total_loc)} loc  ({public_pct}% public / {private_pct}% private)")
+        lines.append(row("output", f"{fmt_comma(total_loc)} loc", f"public {public_pct}% · private {private_pct}%"))
     else:
-        lines.append("code      no data yet")
-    lines.append(
-        f"this week +{fmt_number(churn_week['additions'])} / -{fmt_number(churn_week['deletions'])}"
-    )
-    lines.append("")
+        lines.append(row("output", "no data yet"))
 
-    if temporal:
-        lines.append(f"peak hour      {temporal['peak_hour']:02d}:00 UTC")
-        lines.append(f"after sunset   {temporal['after_sunset_pct']}%")
-        lines.append(f"weekend work   {temporal['weekend_pct']}%")
-        lines.append(f"streak         {temporal['current_streak']}d (longest {temporal['longest_streak']}d)")
-        if temporal["avg_gap_hours"]:
-            lines.append(
-                f"avg gap        {temporal['avg_gap_hours']:.1f}h (longest {temporal['longest_gap_hours']:.0f}h)"
-            )
-        lines.append("")
-
-    lines.append(f"files/commit   {avg_files:.1f} avg, {p95_files:.0f} p95")
-    lines.append(f"most touched   {most_touched_file}")
-    if verbs:
-        lines.append(f"top verbs      {', '.join(verbs)}")
-    lines.append("")
-    lines.append(f"repos          {active_repos} active / {total_repos} total")
+    lines.append(row(
+        "past 7d",
+        f"+{fmt_comma(churn_week['additions'])} / -{fmt_comma(churn_week['deletions'])}",
+        f"net {'+' if net >= 0 else ''}{fmt_comma(net)}",
+    ))
+    lines.append(row("lifetime", f"+{fmt_compact(churn_all['additions'])} / -{fmt_compact(churn_all['deletions'])}"))
 
     if top_languages:
         lines.append("")
-        lines.append("languages (90d, by commits)")
-        for lang, count in top_languages:
-            lines.append(f"  {lang:<12} {bar(count, max_lang_count)} {count}")
+        lines.append("  recent focus (90d, by commits touching that language)")
+        for label, count in top_languages:
+            lines.append(f"  {label:<8}{bar(count, max_lang_count)}{count:>7}")
+
+    if temporal:
+        lines.append("")
+        lines.append(row(
+            "peak hour",
+            f"{temporal['peak_hour']:02d}:00 UTC",
+            f"{temporal['after_sunset_pct']}% past sunset (20:00–06:00)",
+        ))
+        lines.append(row(
+            "cadence",
+            f"{fmt_duration(temporal['avg_gap_hours'])} avg gap",
+            f"longest: {fmt_duration(temporal['longest_gap_hours'])}",
+        ))
+        lines.append(row(
+            "weekend share",
+            f"{temporal['weekend_pct']}%",
+            f"sat {temporal['sat_pct']}% / sun {temporal['sun_pct']}%",
+        ))
+        lines.append(row(
+            "files/commit",
+            f"{avg_files:.1f} avg",
+            f"p95 {p95_files:.0f}, max {max_files}",
+        ))
+        lines.append(row(
+            "commit streak",
+            f"{temporal['current_streak']} days",
+            f"longest ever: {temporal['longest_streak']}",
+        ))
+
+    lines.append("")
+    lines.append(row("active repos", f"{active_repos} of {total_repos}"))
+    lines.append(row("most-touched", most_touched_str))
+    if top_verbs:
+        verb, _ = top_verbs[0]
+        if len(top_verbs) > 1:
+            runner_up, _ = top_verbs[1]
+            lines.append(row("favorite verb", f'"{verb}"', f'runner up: "{runner_up}"'))
+        else:
+            lines.append(row("favorite verb", f'"{verb}"'))
 
     body = "\n".join(lines)
     return f"{START_MARKER}\n```\n{body}\n```\n{END_MARKER}"
