@@ -26,6 +26,13 @@ EXT_LABELS = {
     ".ex": "ex", ".exs": "ex",
 }
 
+CODE_EXTS = {
+    ".py", ".js", ".ts", ".tsx", ".jsx", ".go", ".rs", ".rb", ".java",
+    ".c", ".h", ".cpp", ".hpp", ".cs", ".php", ".swift", ".kt", ".sh",
+    ".sql", ".html", ".css", ".scss", ".svelte", ".vue", ".jl", ".r",
+    ".dart", ".scala", ".lua", ".ex", ".exs",
+}
+
 NOISE_VERBS = {"merge", "revert"}
 
 AFTER_SUNSET_START_HOUR = 20
@@ -140,7 +147,8 @@ def collect_commit_data():
                 continue
             _, _, filepath = parts
             current_files += 1
-            file_touch_counter[f"{repo_path.name}/{filepath}"] += 1
+            if Path(filepath).suffix.lower() in CODE_EXTS:
+                file_touch_counter[f"{repo_path.name}/{filepath}"] += 1
         if current_files:
             files_per_commit.append(current_files)
 
