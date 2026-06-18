@@ -1,4 +1,4 @@
-> man has a large capacity for effort..it took theropod dinosaurs about 80,000,000 years to evolve into early birds, and it took us 300,000 years to make airplanes. at first it seems we're not that much faster than raw evolution (only 100kx ??)..but then remember we were landing on the moon and sending probs to mars only 66-72 years later. 🔮
+> man has a large capacity for effort..it took theropod dinosaurs about 80,000,000 years to evolve into early birds, and it took us 300,000 years to make airplanes. at first it seems we're not that much faster than raw evolution (only 100kx ?)..but then remember we were landing on the moon and sending probs to mars only 66-72 years later. 🔮
 <!-- ### 👋 Hi there, thanks for stopping by 
 ---
 > Computer science is not about machines, in the same way that astronomy is not about telescopes. There is an essential unity of mathematics and computer science. - _Edsger Dijkstra_
