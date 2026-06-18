@@ -6,17 +6,17 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-06-17 · telemetry
+2026-06-18 · telemetry
 
   output        1,400,981 loc           public 100% · private 0%
-  past 7d       +701 / -113             net +588
+  past 7d       +36 / -36               net +0
   lifetime      +8.3M / -2.2M
 
   recent focus (90d, by commits touching that language)
-  tsx     ████████████████████     59
+  tsx     ████████████████████     60
   ts      ████████████········     35
-  py      ███████████·········     31
-  md      ████████············     23
+  py      ██████████··········     31
+  md      ████████············     24
   json    ████················     11
   css     ██··················      5
   js      ██··················      5
@@ -28,7 +28,7 @@
   files/commit  2.1 avg                 p95 5, max 43
   commit streak 0 days                  longest ever: 415
 
-  active repos  2 of 119
+  active repos  3 of 119
   most-touched  gh-stats/generated/overview.svg (123×)
   favorite verb "update"                runner up: "set"
 ```
