@@ -6,10 +6,10 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-06-24 · telemetry
+2026-06-25 · telemetry
 
-  output        3,059,991 loc           public 46% · private 54%
-  past 7d       +442,144 / -742         net +441,402
+  output        3,059,984 loc           public 46% · private 54%
+  past 7d       +442,180 / -787         net +441,393
   lifetime      +25.2M / -15.2M
 
   recent focus (90d, by commits touching that language)
@@ -18,8 +18,8 @@
   json    ████████············     50
   js      ███████·············     45
   ts      ███████·············     44
+  md      ██████··············     39
   html    ██████··············     39
-  md      ██████··············     38
   css     ███·················     18
 
   peak hour     00:00 UTC               39% past sunset (20:00–06:00)
