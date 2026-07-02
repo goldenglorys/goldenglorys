@@ -6,17 +6,17 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-07-01 · telemetry
+2026-07-02 · telemetry
 
   output        3,059,984 loc           public 46% · private 54%
-  past 7d       +67 / -76               net -9
+  past 7d       +38 / -38               net +0
   lifetime      +25.2M / -15.2M
 
   recent focus (90d, by commits touching that language)
   tsx     ████████████████████    118
   py      ████████████········     72
   json    ████████············     47
-  md      ███████·············     44
+  md      ████████············     45
   js      ███████·············     43
   html    ███████·············     39
   ts      █████···············     29
@@ -28,7 +28,7 @@
   files/commit  4.8 avg                 p95 17, max 257
   commit streak 0 days                  longest ever: 489
 
-  active repos  3 of 177
+  active repos  2 of 177
   most-touched  es/src/components/RSVPForm.tsx (13×)
   favorite verb "update"                runner up: "fix"
 ```
