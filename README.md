@@ -6,16 +6,16 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-07-03 · telemetry
+2026-07-04 · telemetry
 
   output        3,063,300 loc           public 46% · private 54%
-  past 7d       +4,376 / -289           net +4,087
+  past 7d       +4,352 / -287           net +4,065
   lifetime      +25.2M / -15.2M
 
   recent focus (90d, by commits touching that language)
   tsx     ████████████████████    118
   py      ███████████████·····     88
-  md      ████████············     49
+  md      ████████············     50
   json    ████████············     47
   js      ███████·············     43
   html    ███████·············     39
