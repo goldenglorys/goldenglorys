@@ -6,29 +6,29 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-08-06 · telemetry
+2026-08-07 · telemetry
 
-  output        3,077,746 loc           public 46% · private 54%
-  past 7d       +31 / -31               net +0
-  lifetime      +25.2M / -15.2M
+  output        3,139,971 loc           public 45% · private 55%
+  past 7d       +63,809 / -1,115        net +62,694
+  lifetime      +25.3M / -15.2M
 
   recent focus (90d, by commits touching that language)
-  py      ████████████████████    274
-  md      ██████··············     84
-  tsx     ████················     51
-  html    ███·················     36
-  js      ██··················     27
-  json    ██··················     23
-  css     █···················      9
-  yaml    ····················      4
+  json    ████████████████████    513
+  py      ███████████·········    274
+  md      ████················     90
+  tsx     ███·················     69
+  html    █···················     36
+  js      █···················     27
+  css     █···················     13
+  ts      ····················     11
 
   peak hour     00:00 UTC               39% past sunset (20:00–06:00)
   cadence       13h avg gap             longest: 825d 19h
   weekend share 26%                     sat 45% / sun 55%
-  files/commit  4.6 avg                 p95 18, max 257
+  files/commit  6.4 avg                 p95 22, max 538
   commit streak 0 days                  longest ever: 489
 
-  active repos  2 of 179
+  active repos  3 of 180
   most-touched  es/src/components/RSVPForm.tsx (13×)
   favorite verb "update"                runner up: "fix"
 ```
