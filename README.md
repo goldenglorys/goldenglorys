@@ -6,21 +6,21 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-09-16 · telemetry
+2026-09-17 · telemetry
 
-  output        3,219,338 loc           public 44% · private 56%
-  past 7d       +21 / -21               net +0
+  output        3,219,064 loc           public 44% · private 56%
+  past 7d       +24 / -24               net +0
   lifetime      +25.7M / -15.2M
 
   recent focus (90d, by commits touching that language)
-  json    ████████████████████    536
-  tsx     ███████████·········    300
-  py      █████████···········    248
-  md      ██████··············    172
-  html    ███·················     86
-  ts      ██··················     61
+  json    ████████████████████    530
+  tsx     ███████████·········    282
+  py      ████████············    207
+  md      ██████··············    167
+  ts      ██··················     60
   c       ██··················     52
-  js      █···················     35
+  html    ██··················     50
+  go      █···················     28
 
   peak hour     00:00 UTC               41% past sunset (20:00–06:00)
   cadence       12h avg gap             longest: 825d 19h
