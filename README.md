@@ -6,7 +6,7 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-10-03 · telemetry
+2026-10-04 · telemetry
 
   output        3,219,043 loc           public 44% · private 56%
   past 7d       +20 / -20               net +0
@@ -14,7 +14,7 @@
 
   recent focus (90d, by commits touching that language)
   json    ████████████████████    523
-  tsx     ██████████··········    258
+  tsx     ██████████··········    257
   py      ███████·············    191
   md      ██████··············    163
   ts      ██··················     59
