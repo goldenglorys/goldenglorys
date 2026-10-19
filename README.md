@@ -6,7 +6,7 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-10-18 · telemetry
+2026-10-19 · telemetry
 
   output        3,251,846 loc           public 44% · private 56%
   past 7d       +40,187 / -505          net +39,682
@@ -25,7 +25,7 @@
   peak hour     00:00 UTC               41% past sunset (20:00–06:00)
   cadence       12h avg gap             longest: 825d 19h
   weekend share 24%                     sat 46% / sun 54%
-  files/commit  8.2 avg                 p95 24, max 538
+  files/commit  8.1 avg                 p95 23, max 538
   commit streak 0 days                  longest ever: 489
 
   active repos  5 of 188
