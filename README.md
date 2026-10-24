@@ -6,10 +6,10 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-10-23 · telemetry
+2026-10-24 · telemetry
 
-  output        3,252,120 loc           public 44% · private 56%
-  past 7d       +38 / -38               net +0
+  output        3,251,846 loc           public 44% · private 56%
+  past 7d       +31 / -31               net +0
   lifetime      +25.7M / -15.2M
 
   recent focus (90d, by commits touching that language)
@@ -28,7 +28,7 @@
   files/commit  8.0 avg                 p95 23, max 538
   commit streak 0 days                  longest ever: 489
 
-  active repos  4 of 188
+  active repos  2 of 188
   most-touched  ticker/src/App.tsx (7×)
   favorite verb "update"                runner up: "fix"
 ```
