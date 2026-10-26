@@ -6,10 +6,10 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-10-25 · telemetry
+2026-10-26 · telemetry
 
   output        3,251,922 loc           public 44% · private 56%
-  past 7d       +162 / -59              net +103
+  past 7d       +172 / -69              net +103
   lifetime      +25.7M / -15.2M
 
   recent focus (90d, by commits touching that language)
@@ -25,7 +25,7 @@
   peak hour     00:00 UTC               41% past sunset (20:00–06:00)
   cadence       12h avg gap             longest: 825d 19h
   weekend share 24%                     sat 46% / sun 54%
-  files/commit  8.0 avg                 p95 23, max 538
+  files/commit  7.9 avg                 p95 23, max 538
   commit streak 0 days                  longest ever: 489
 
   active repos  3 of 188
