@@ -6,29 +6,29 @@
 
 <!-- TELEMETRY START -->
 ```
-2026-11-21 · telemetry
+2026-11-22 · telemetry
 
-  output        1,950,512 loc           public 0% · private 100%
-  past 7d       +425,039 / -14,378      net +410,661
-  lifetime      +26.1M / -15.2M
+  output        1,950,919 loc           public 0% · private 100%
+  past 7d       +432,746 / -14,386      net +418,360
+  lifetime      +26.2M / -15.2M
 
   recent focus (90d, by commits touching that language)
   md      ████████████████████    120
-  tsx     █████████···········     53
-  json    ██████··············     39
+  tsx     ████████············     45
+  json    ███████·············     42
   js      ██████··············     33
   go      █████···············     28
-  ts      ███·················     20
+  ts      ████················     27
   html    ██··················     14
-  css     ██··················     11
+  css     ██··················     10
 
   peak hour     00:00 UTC               41% past sunset (20:00–06:00)
   cadence       12h avg gap             longest: 825d 19h
   weekend share 24%                     sat 46% / sun 54%
-  files/commit  7.3 avg                 p95 21, max 538
+  files/commit  7.3 avg                 p95 22, max 538
   commit streak 0 days                  longest ever: 489
 
-  active repos  5 of 190
+  active repos  7 of 192
   most-touched  ticker/src/App.tsx (8×)
   favorite verb "update"                runner up: "fix"
 ```
